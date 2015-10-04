@@ -1,0 +1,30 @@
+
+In English : 
+This document everything about this project to record notes
+
+The deployment will be the main document.
+
+In Korean :
+이문서는 이 프로젝트에 대한 모든걸 메모 기록 하기 위한 
+
+주 배포 문서가 될 것입니다. 
+
+
+1. First Writing 2015/10/04 
+In Korean. 
+- 이문서는 이 프로젝트의 첫 시작입니다. 
+- 프로젝트는 : A-camp 9기에서 아이디로 시작한 프로젝트로써 안드로이드 기반의 빠른 일정 등록 앱입니다.
+
+- 프로젝트에 구성된 소스 와 문서는 모두 MIT 라이센스를 따르며 
+
+  더불어 이 프로젝트에서 사용한 소스코드중 인터넷에서 찾은 자료와 
+
+  그 외 github에서 참고한 자료는 모두 
+
+  “원 저적자의 저작권 및 라이센스를 우선시 합니다.”
+
+  이에  이 프로젝트에 구성 항목 모두에 대한 상업적 사용을 금지하며 
+
+  이로 인하여 발생한 문제는 프로젝트에 관계된 구성원이  책임지지 않습니다.
+
+end of First Writing! 
