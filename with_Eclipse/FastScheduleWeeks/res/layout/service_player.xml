@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:visibility="visible" >
+    
+        <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+	<LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1" >
+    
+		<LinearLayout
+    		android:orientation="vertical"
+   		 	android:layout_width="fill_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="1" >
+    
+	   			 <!-- 여기에 버튼이 하나  -->
+	           <ImageButton
+               		android:id="@+id/overay_button_app"
+                	style="@style/CustomImageButton"
+                	android:layout_width="30dp"
+                	android:layout_height="30dp"
+                	android:text="mail"
+                	android:layout_marginLeft="50dp"
+                 	android:visibility="invisible"
+                 	android:onClick="showAppMain"
+                 	android:background="@drawable/widget_icon_app_launch"
+               />
+	     </LinearLayout>
+    
+	     <LinearLayout
+    		android:orientation="vertical"
+    		android:layout_width="fill_parent"
+    		android:layout_height="0dp"
+    		android:layout_weight="2" >
+    
+	         <LinearLayout
+    			android:orientation="horizontal"
+    			android:layout_width="fill_parent"
+    			android:layout_height="0dp"
+    			android:layout_weight="1" >
+    
+	            	<LinearLayout
+    					android:orientation="horizontal"
+    					android:layout_width="0dp"
+    					android:layout_height="fill_parent"
+    					android:layout_weight="1" >
+    
+    					<!--  여기에 버튼 큰거 하나  -->
+    					<ImageButton
+                			android:id="@+id/overay_button_center"
+                			style="@style/CustomImageButton"
+                			android:layout_width="70dp"
+                			android:layout_height="70dp"
+                			android:text="mail"
+                			android:background="@drawable/widget_icon_center"
+                			android:onClick="toggleEvent"
+                 		/>
+	     			</LinearLayout>
+	     
+	             	<LinearLayout
+    					android:orientation="vertical"
+    					android:layout_width="0dp"
+    					android:layout_height="fill_parent"
+    					android:layout_weight="1" >
+    
+	                	 <!--여기에 버튼이 2개  
+	                  	-->
+	                 	<ImageButton
+                			android:id="@+id/overay_button_typing"
+                			style="@style/CustomImageButton"
+                			android:layout_width="30dp"
+                			android:layout_height="30dp"
+               				android:text="mail"
+                			android:gravity="left"
+                 			android:layout_marginLeft="10dp"
+                 			android:onClick="showClipInput"
+                 			android:visibility="invisible"
+                 			android:background="@drawable/widget_icon_in_clipboard"
+                 		 />
+	                 	<ImageButton
+                			android:id="@+id/overay_button_camera"
+                			style="@style/CustomImageButton"
+                			android:layout_width="30dp"
+                			android:layout_height="30dp"
+                			android:text="mail"
+                			android:gravity="center"
+                 			android:layout_marginLeft="20dp"
+                 			android:layout_marginTop="10dp"
+                 			android:visibility="invisible"
+                 			android:onClick="showCameraInput"
+                 			android:background="@drawable/widget_icon_in_camera"
+                 		/>
+	     			</LinearLayout>
+	             
+	     		</LinearLayout>
+	         
+	 		</LinearLayout>
+	    	 
+	     	<LinearLayout
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="0dp"
+    			android:layout_weight="1" >
+	         	<!--  여기에 버튼 1 -->
+	         	<ImageButton
+                	android:id="@+id/overay_button_voice"
+                	style="@style/CustomImageButton"
+                	android:layout_width="30dp"
+                	android:layout_height="30dp"
+                	android:text="mail"
+                	android:layout_marginLeft="60dp"
+                	android:layout_marginTop="1dp"
+                 	android:visibility="invisible"
+                 	android:onClick="showVoiceInput" 
+                 	android:background="@drawable/widget_icon_in_voice"
+              	/>
+	     </LinearLayout>
+	     
+	 </LinearLayout>
+	 
+	</RelativeLayout>
+    
+</RelativeLayout>

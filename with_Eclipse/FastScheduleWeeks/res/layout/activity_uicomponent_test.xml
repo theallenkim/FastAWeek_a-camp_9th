@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fastscheduleweeks.UIComponentTestActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Added From Voice"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+     android:layout_marginTop="83dp" 
+    android:layout_height="60dp"
+    android:background="#CCEECC"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="시간"
+        android:id="@+id/none_1"
+        android:textSize="11dp"
+        android:layout_column="0"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_2"
+        android:textSize="11dp"
+        android:text="오늘"
+        android:layout_column="1"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_3"
+        android:textSize="11dp"
+        android:text="내일"
+        android:layout_column="2"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_4"
+        android:textSize="11dp"
+        android:text="모레"
+        android:layout_column="3"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+    
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_5"
+        android:textSize="11dp"
+        android:text="글피"
+        android:layout_column="4"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_6"
+        android:textSize="11dp"
+        android:text="나흘"
+        android:layout_column="5"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_7"
+        android:textSize="11dp"
+        android:text="닷새"
+        android:layout_column="6"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/none_8"
+        android:textSize="11dp"
+        android:text="여섯새"
+        android:layout_column="7"
+        android:background="#49a0d7"
+        android:layout_margin="1dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+    
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="113dp" 
+        android:columnWidth="40dp"
+        android:gravity="center"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="8"
+       
+        android:background="#49a0d7"
+        >
+
+		
+
+    </GridView>
+
+</RelativeLayout>

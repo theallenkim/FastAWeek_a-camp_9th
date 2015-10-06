@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">제때해</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_voice_input">빠른 음성 입력</string>
+    <string name="title_activity_clip_board_input">클립보드 문자 입력하기</string>
+    <string name="title_activity_camera_input">화면캡쳐로 일정 등록 하기</string>
+
+    <!-- below the input activity strings -->
+    <string name="camera_input_comment_str">날짜/시간/장소/누구 순서로 되어있으면 인식이 빠릅니다.</string>
+    <string name="title_activity_uicomponent_test">UIComponentTestActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
