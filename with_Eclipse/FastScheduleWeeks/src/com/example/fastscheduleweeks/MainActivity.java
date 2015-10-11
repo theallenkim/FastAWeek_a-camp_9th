@@ -39,6 +39,13 @@ import com.googlecode.tesseract.android.TessBaseAPI;
 
 // 2015.09.11 added by allen.
 // http://www.devblog.kr/r/8y0gFPAvJ2j8MWIVVXucyP9uYvQegfSVbY5XM3yK4 //그리드뷰 
+/* In Korean.
+ * 앱의 기본 화면 클래스이다.
+ * 지원하는 기능은 다음과 같다.
+ * 1. 알림바 영역 핫키 버튼 리스트 
+ * 2. 메인 화면 
+ * 
+ */
 
 public class MainActivity extends Activity {
 

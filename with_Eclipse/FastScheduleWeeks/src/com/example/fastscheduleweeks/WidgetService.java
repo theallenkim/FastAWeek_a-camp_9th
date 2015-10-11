@@ -1,6 +1,25 @@
 package com.example.fastscheduleweeks;
-// 소스 출처.
+// 소스 출처. (in English - Reference from : )
 //https://github.com/fouady/SpotifyTray-Android/blob/master/src/com/droidprojects/spotifytray/PlayerService.java
+// 추가 설명 :
+// In Korean : 기존 소스는 위젯이며 하나 재생,일시정지,이전곡,다음곡 버튼과 곡의 섬네일 이미지를 제공해주는 기능이 많은 코드 였다.
+//            해당 코드에서 필요로 한 부분만 제거 하고 Layout code를 조정 하여 적용 하였다. 
+//            여기에서 보여지는 버튼 UI 컴포넌트는 크게 토글기능과 드래깅 기능을 지윈 하기 위한 버튼, 토글에서 enable/disable 되는 
+//            버튼 여러개가 존재한다. 
+// In English : The original source code is an android widget. but, means & support type to different.
+
+/* In Korean. :
+ * 이 소스 코드가 하는일은 크게 다음과 같다. 
+ * 1. 바탕화면 최상단 무빙 위젯 
+ * 2. 알림바 영역 위젯 사라지기 기능 제공 
+ * 3. 위젯에 특정 버튼들이 보여졌다가 사라지게 하는 토글 기능을 제공.
+ * 
+ * In English : 
+ * Below the working items in this code.
+ * 1. top moving widget in Android main screen
+ * 2. Using event about disable to widget, in notification area.
+ * 3.  
+ */
 
 import java.io.IOException;
 import java.io.InputStream;

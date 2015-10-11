@@ -13,5 +13,11 @@
     <string name="title_activity_uicomponent_test">UIComponentTestActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-
+    
+    <string name="input_voice_input_msg_str"> "입력하고 싶은 내용을 말씀해 주세요" </string>
+    <string name="input_voice_processing_str">보이스를 분석 중입니다. 잠시만 기다려 주세요</string> 
+    
+    <string name="clipboard_no_string">클립보드에 정보가 없습니다.</string>
+	
+    <string name="parsefailstring_time">"시간 인식 불가"</string>
 </resources>

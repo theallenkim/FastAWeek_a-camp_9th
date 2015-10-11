@@ -71,7 +71,7 @@ public class ClipBoardInputActivity extends Activity {
             ClipData.Item item = cd.getItemAt(0);
             inputTextBox.setText("" + item.getText());
         } else {
-        	inputTextBox.setText("클립보드에 정보가 없습니다.");
+        	inputTextBox.setText(R.string.clipboard_no_string);
         }
     }
 	

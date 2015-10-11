@@ -100,7 +100,7 @@ public class VoiceInputActivity extends Activity {
         i.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "ko-KR");
         // i.putExtra(RecognizerIntent.EXTRA_PROMPT, "말을 하세요.");
 
-        Toast toast = Toast.makeText(getApplicationContext(), "입력하고 싶은 내용을 말씀해 주세요",
+        Toast toast = Toast.makeText(getApplicationContext(), R.string.input_voice_input_msg_str,
                 Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
         toast.show();
@@ -132,7 +132,7 @@ public class VoiceInputActivity extends Activity {
 
         @Override
         public void onEndOfSpeech() {
-            Toast toast = Toast.makeText(getApplicationContext(), "보이스를 분석 중입니다. 잠시만 기다려 주세요",
+            Toast toast = Toast.makeText(getApplicationContext(), R.string.input_voice_processing_str,
                     Toast.LENGTH_LONG);
             toast.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
             toast.show();
